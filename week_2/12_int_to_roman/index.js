@@ -8,7 +8,7 @@
  * @return {string}
  */
 var intToRoman = function(num) {
-    const ones = ["", "I", "II", "III", "IV", "V", "VI", "VII", "VII", "IX"]
+    const ones = ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"]
     const tens = ["", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"]
     const hrds = ["", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"]
     const thds = ["", "M", "MM", "MMM"]
